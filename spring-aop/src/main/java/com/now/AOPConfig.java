@@ -1,4 +1,4 @@
-package com.now.config;
+package com.now;
 
 import com.now.aspect.Audience;
 import com.now.inter.Performance;

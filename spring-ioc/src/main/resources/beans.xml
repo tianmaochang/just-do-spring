@@ -4,12 +4,16 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="knight" class="com.now.BraveKnight">
-        <constructor-arg ref="quest"/>
+    <bean id="man" class="com.now.Man">
+        <!--<constructor-arg ref="quest"/>-->
     </bean>
 
-    <bean id="quest" class="com.now.SlayDragonQuest">
-        <constructor-arg value="#{T(System).out}"/>
+    <bean id="woman" class="com.now.Woman">
+        <!--<constructor-arg value="#{T(System).out}"/>/-->
+    </bean>
+
+    <bean id="humanService" class="com.now.HumanService">
+        <property name="human" ref="woman"/>
     </bean>
 
 </beans>
