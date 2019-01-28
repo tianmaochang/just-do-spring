@@ -1,0 +1,6 @@
+1、什么是Spring框架？Spring框架有哪些模块？
+    Spring是个Java企业级应用的开源开发框架；为Java应用程序的开发提供了综合、广泛的基础性支持的平台。
+    Spring框架至今继承20多个模块，这些模块主要有：核心容器（Core Container）、数据访问/继承（Data Access/Integration）、
+Web、面向切面编程（AOP）、工具、消息和测试模块。
+
+2、
